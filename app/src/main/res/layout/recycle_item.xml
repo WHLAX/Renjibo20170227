@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/recy_imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recy_imageView"
+        android:layout_margin="20dp"
+        android:text="年龄" />
+
+    <TextView
+        android:id="@+id/textView_occupation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recy_imageView"
+        android:layout_margin="20dp"
+        android:layout_toRightOf="@id/textView_age"
+        android:text="职业" />
+
+    <TextView
+        android:id="@+id/textView_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/recy_imageView"
+        android:layout_margin="20dp"
+        android:text="title" />
+
+    <TextView
+        android:id="@+id/textView_introduction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_occupation"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/textView_age"
+        android:text="简介" />
+</RelativeLayout>
